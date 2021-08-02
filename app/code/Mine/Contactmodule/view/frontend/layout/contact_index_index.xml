@@ -3,7 +3,7 @@
     <body>
         <referenceBlock name="contactForm" remove="true"/>
         <referenceContainer name="content">
-            <block class="Magento\Contact\Block\ContactForm" name="customContactForm" template="Magenticians_Modulecontact::form.phtml" />
+            <block class="Magento\Contact\Block\ContactForm" name="customContactForm" template="Magenticians_Contactmodule::form.phtml" />
         </referenceContainer>
     </body>
 </page>

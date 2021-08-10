@@ -3,7 +3,7 @@
     <body>
         <referenceBlock name="contactForm" remove="true"/>
         <referenceContainer name="content">
-            <block class="Mine\Contactmodule\Block\ContactForm" name="customContactFormaha" template="Magenticians_Contactmodule::form.phtml" />
+            <block class="Mine\Contactmodule\Block\ContactForm" name="customContactFormaha" template="form.phtml" />
         </referenceContainer>
     </body>
 </page>

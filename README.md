@@ -34,7 +34,7 @@ $cacheId = implode('-', $this->scopePriorityScheme) . '-' . $this->cacheId;
 3.3 Enable these in php.ini
  sockets,soap,intl,sodium
 
-4. run the follownig command accordingly
+4. run the following command accordingly
 
 php -d memory_limit=-1 bin/magento setup:install --base-url="http://localhost/magento2" --db-host="localhost" --db-name="magento2" --db-user="root" --db-password="" --admin-firstname="admin" --admin-lastname="admin" --admin-email="user@example.com" --admin-user="admin" --admin-password="admin123" --use-rewrites="1" --backend-frontname="admin" --search-engine=elasticsearch7 --elasticsearch-host="localhost" --elasticsearch-port=9200
 
